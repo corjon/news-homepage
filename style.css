@@ -269,7 +269,8 @@ hr {
 
   h1 {
     grid-area: h1;
-    margin-bottom:0;
+    margin-bottom: 0;
+    margin-top: 2px;
     font-size: 56px;
     line-height: 56px;
   }
@@ -291,6 +292,13 @@ hr {
     grid-area: new-articles;
     padding: 32px 24px 31px;
     margin-bottom: 0;
+  }
+
+  .new-articles p:first-child {
+    margin-bottom: 34px;
+    font-size: 40px;
+    line-height: 40px;
+    color: #E9AA52;
   }
 
   .new-articles h2 a:hover {

@@ -8,6 +8,7 @@
 body {
   padding: 28px 16px 80px;
   min-height: 100vh;
+  background-color: #FFFDFA;
 }
 
 img {
@@ -224,6 +225,7 @@ hr {
     width: auto;
     height: inherit;
     transform: none;
+    transition: none;
   }
 
   nav ul {
